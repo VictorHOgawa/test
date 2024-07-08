@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "test",
-    "slug": "test",
+    "name": "NightApp",
+    "slug": "NightApp",
+    "scheme": "nightapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,7 +18,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gabrielmfernandes.test"
     },
     "android": {
       "adaptiveIcon": {
@@ -28,6 +30,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "owner": "gabrielmfernandes"
   }
 }
